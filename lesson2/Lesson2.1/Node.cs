@@ -125,6 +125,7 @@ namespace Lesson2._1
                 node.PrevNode.NextNode = node.NextNode;
             }
             Count--;
+
             return;
         }
         public void PrintList()
